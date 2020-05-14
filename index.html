@@ -1,0 +1,26 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=1">
+  <base target="_blank">
+</head>
+<body>
+  <center>
+    <div id="container">
+      <div>
+        <button id="start">Share Screen</button>
+        <button id="record" disabled>Start Recording</button>
+        <button id="play" disabled>Play</button>
+        <button id="download" disabled>Download</button>
+      </div>
+      <br>
+      <video id="gum" width="68%" playsinline autoplay muted></video>
+      <video id="recorded" width="68%" style="display:none;" playsinline loop></video>
+      <div>
+        <span id="errorMsg"></span>
+      </div>
+    </div>
+  </center>
+  <script src="js/main.js" async></script>
+</body>
+</html>
